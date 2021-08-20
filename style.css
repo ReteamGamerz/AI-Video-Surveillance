@@ -1,0 +1,40 @@
+body {
+    background-size: cover;
+}
+
+.heading_h1 {
+    font-size: 21px;
+    width: 100%;
+    margin: 0px;
+}
+
+#number_of_objects, #object_detection {
+    font-size: 18px;
+
+}
+
+#button_start {
+    font-size: 25px;
+    box-shadow: 5px 5px 5px darkred;
+}
+
+#button_start:hover {
+   box-shadow: 5px 5px 5px darkorange;
+}
+
+#div_footer {
+    background-color: white ;
+    position: fixed;
+    bottom: 0;
+    color: black;
+    line-height: 3;
+    text-align: center;
+    width: 100%;
+}
+
+canvas {
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 130px;
+}
